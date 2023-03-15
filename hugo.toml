@@ -4,7 +4,7 @@ title = "OneBlog"
 theme = "puppet"
 publishDir = "dist"
 
-copyright = "CC4.0"
+copyright = "Copyright &copy; Yun's OneBlog 2023"
 paginate = 7
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
@@ -89,12 +89,12 @@ custom_css = ["css/scrollbar.css"]
 
 [params.sidebar]
 enable = true
+# Avatar will be overwritten by gravatar image if `gravatarEmail` is filled
 gravatarEmail = ""
-# Overwritten by your gravatar image if `gravatarEmail` is filled
-avatar = "/images/me.jpg"
+avatar = "/images/me.jpeg"
 
 [[params.sidebarBios]]
-bio = "Yun Zhang@Microsft"
+bio = "Yun Zhang @ Microsoft"
 [[params.sidebarBios]]
 bio = "时刻不忘 Work Life Balance"
 [[params.sidebarBios]]
