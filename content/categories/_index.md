@@ -1,5 +1,6 @@
-+++
-title = "Categories"
-header_img = "img/archive-bg.jpg"
-short = false
-+++
+---
+title: Categories
+description: 「文章类别」
+header_img: /images/categories-bg.jpg
+short: false
+---

@@ -1,6 +1,6 @@
 ---
 title: Archive
-description: archive archive archive
-header_img: /img/archive-bg.jpg
-short: true
+description: 「凝聚时间的模因」
+header_img: /images/archive-bg.jpg
+short: false
 ---

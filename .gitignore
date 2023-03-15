@@ -1,2 +1,4 @@
-public\
-dist\
+public
+dist
+resources
+.hugo_build.lock

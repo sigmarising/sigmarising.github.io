@@ -1,16 +1,16 @@
-+++
-title = "{{ replace .Name "-" " " | title }}"
-date = {{ .Date }}
-description = ""  # desc of series / summary of post / delete to summary from post content
-subtitle = ""  # can be deleted
-header_img = ""  # can be deleted
-short = false
-toc = true
-tags = []
-categories = []
-series = []
-slug = ""
-+++
+---
+title: "{{ replace .Name "-" " " | title }}"
+date: {{ .Date }}
+description: ""  # desc of series / summary of post / delete to summary from post content
+subtitle: ""  # can be deleted
+header_img: "/images/.jpg"  # can be deleted
+short: true
+toc: true
+tags: []
+categories: []
+series: []
+slug: ""
+---
 
 
 ---
