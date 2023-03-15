@@ -92,7 +92,13 @@ enable = true
 gravatarEmail = ""
 # Overwritten by your gravatar image if `gravatarEmail` is filled
 avatar = "/images/me.jpg"
-bio = "时刻不忘 Work Life Balance，探寻生活中的乐趣与美好"
+
+[[params.sidebarBios]]
+bio = "Yun Zhang@Microsft"
+[[params.sidebarBios]]
+bio = "时刻不忘 Work Life Balance"
+[[params.sidebarBios]]
+bio = "探寻生活中的乐趣与美好"
 
 [params.social]
 github = "sigmarising"
@@ -102,7 +108,6 @@ rss = true
 [[params.friends]]
 name = "我的CSDN"
 url = "https://blog.csdn.net/sigmarising"
-
 [[params.friends]]
 name = "我的简书"
 url = "https://www.jianshu.com/u/200f6f2ca07d"
