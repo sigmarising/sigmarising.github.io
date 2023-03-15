@@ -1,3 +1,4 @@
-+++
-short = false
-+++
+---
+title: OneBlog
+short: false
+---
