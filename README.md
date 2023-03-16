@@ -43,7 +43,7 @@ hugo
 
 ### Publish
 
-Don't directly push to branch main, make a PR and merge to it. This will auto trigger CI/CD to publish.
+Don't directly push to branch main (main is protected), make a PR and merge to it. This will auto trigger CI/CD to publish.
 
 ## Project Simple Description
 

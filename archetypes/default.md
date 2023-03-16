@@ -9,9 +9,12 @@ toc: true
 tags: []
 categories: []
 series: []
-slug: ""  # the real url
+slug: ""  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
 
+# 1. Title
+
+建议对所有标题进行数字编号处理。
 
 ---
 
