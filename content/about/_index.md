@@ -2,7 +2,7 @@
 title: "About"
 description: "「关于作者」"
 aliases: ["about-me"]
-header_img: /images/about-bg.jpg
+header_img: /img/bg-about.jpg
 short: false
 ---
 

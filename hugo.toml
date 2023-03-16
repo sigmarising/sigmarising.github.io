@@ -77,8 +77,8 @@ weight = 50
 author = "Yun"
 description = "「体验平凡 创造所感」"
 keywords = "blog,developer,life,personal"
-img_home = "/images/home-bg.jpg"
-img_404 = "/images/404-bg.jpg"
+img_home = "/img/bg-home.jpg"
+img_404 = "/img/bg-404.jpg"
 
 useFaviconGenerator = true
 
@@ -91,7 +91,7 @@ custom_css = ["css/scrollbar.css"]
 enable = true
 # Avatar will be overwritten by gravatar image if `gravatarEmail` is filled
 gravatarEmail = ""
-avatar = "/images/me.jpeg"
+avatar = "/img/pic-me.jpeg"
 
 [[params.sidebarBios]]
 bio = "Yun Zhang @ Microsoft"
