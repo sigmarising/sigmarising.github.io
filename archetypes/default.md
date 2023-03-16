@@ -3,15 +3,18 @@ title: "{{ replace .Name "-" " " | title }}"
 date: {{ .Date }}
 description: ""  # desc of series / summary of post / delete to summary from post content
 subtitle: ""  # can be deleted
-header_img: "/images/.jpg"  # can be deleted
+header_img: "/img/.jpg"  # can be deleted
 short: true
 toc: true
 tags: []
 categories: []
 series: []
-slug: ""
+slug: ""  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
 
+# 1. Title
+
+建议对所有标题进行数字编号处理。
 
 ---
 

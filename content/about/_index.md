@@ -2,24 +2,22 @@
 title: "About"
 description: "「关于作者」"
 aliases: ["about-me"]
-header_img: /images/about-bg.jpg
+header_img: /img/bg-about.jpg
 short: false
 ---
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+***This is Yun here! 欢迎来到我的博客 OneBlog！***
 
-Hugo makes use of a variety of open source projects including:
+本人 CS 领域毕业（计算机科学与技术，计算机技术），本科与硕士均就读于北京邮电大学。\
+我的热爱和兴趣十分广泛（经常性三分钟热度）：前端技术、后端技术、编程语言、软件、PC 硬件、移动设备、游泳、户外、读书、电影、影视、动漫、漫画、游戏、Xbox、Switch……有太多太多想做的事情（可惜时间太少）。
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+在这个 OneBlog 主要会记录我的 Tech 相关笔记（或备忘录）、生活中的感悟、以及各类影音视听游戏的评测和感想，希望能够一直坚持记录下去。
 
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
+---
 
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
+***This is Yun here! Welcome to my OneBlog!***
 
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
+I graduated from the field of CS (Computer Science and Technology, Computer Technology), and both my undergraduate and master's degree studies at Beijing University of Posts and Telecommunications. \
+My hobbies and interests are very broad (regular three-minute hotness): front-end technology, back-end technology, programming languages, software, PC hardware, mobile devices, swimming, outdoors, reading, movies, movies, animation, comics, games, Xbox , Switch... There are too many things I want to do (but too little time).
 
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+In this OneBlog, I will mainly record my Tech-related notes (or memos), insights in life, and reviews and impressions of various audio-visual games. I hope I can keep recording them.
