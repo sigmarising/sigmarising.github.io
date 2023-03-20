@@ -107,7 +107,7 @@ rss = true
 
 [[params.friends]]
 name = "我的CSDN"
-url = "https://blog.csdn.net/sigmarising"
+url = "https://blog.csdn.net/sigmarising?type=blog"
 [[params.friends]]
 name = "我的简书"
 url = "https://www.jianshu.com/u/200f6f2ca07d"
