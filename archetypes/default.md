@@ -9,7 +9,7 @@ toc: true
 tags: []
 categories: []
 series: []
-slug: ""  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
+slug: "{{ .Date | time.Format "20060102" }}-title-url"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
 
 # 1. Title
