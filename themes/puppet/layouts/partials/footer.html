@@ -96,5 +96,4 @@
 {{ template "_internal/google_analytics.html" . }}
 {{ end }}
 
-{{ $zoom_js := resources.Get "zoomjs/zoom.js" | resources.Minify }}
-<script src="{{ $zoom_js.RelPermalink }}"></script>
+<script src={{ "js/lightbox.min.js" | relURL }}></script>

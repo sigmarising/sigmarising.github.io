@@ -83,8 +83,9 @@ img_404 = "/img/bg-404.jpg"
 useFaviconGenerator = true
 
 # Add your file to assets folder
-# [assets/js/custom.js, assets/css/custom.css]
-custom_js = []
+# (assets/js/custom.js, assets/css/custom.css)
+# include by `js/custom.js` and `css/custom.css`
+custom_js = ["js/lightbox-option.js"]
 custom_css = ["css/scrollbar.css"]
 
 [params.sidebar]

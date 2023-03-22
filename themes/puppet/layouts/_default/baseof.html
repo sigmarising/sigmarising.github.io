@@ -30,8 +30,7 @@
   {{- $style := resources.Get "sass/main.scss" | resources.ToCSS $options -}}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
-  {{ $zoom_css := resources.Get "zoomjs/zoom.css" | resources.Minify -}}
-  <link rel="stylesheet" href="{{ $zoom_css.RelPermalink }}">
+  <link rel="stylesheet" href={{ "css/lightbox.min.css" | relURL }}>
 
   {{ range .Site.Params.custom_css -}}
   {{ $custom_template := resources.Get . }}
