@@ -8,7 +8,7 @@ short: true
 toc: true
 tags: []
 categories: []
-series: []
+series: ["tech", "life", "review"]  # should be ONLY ONE of the ["tech", "life", "review"]
 slug: "{{ .Date | time.Format "20060102" }}-title-url"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
 
