@@ -129,11 +129,16 @@ pre,
   // sometimes you should use vendor-feature.
   -webkit-overflow-scrolling: touch;
 }
+pre {
+  padding-bottom: 0px;
+}
 pre code {
   display: block;
   width: auto;
   white-space: pre; // save it but no-wrap;
   word-wrap: normal; // no-wrap
+  overflow: auto;
+  padding-bottom: 9.5px;
 }
 code,
 kbd,
