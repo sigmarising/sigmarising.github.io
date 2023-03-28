@@ -27,3 +27,4 @@ Base on Hugo Theme Puppet [commit 71e55a8](https://github.com/roninro/hugo-theme
     * `static\webfonts\`
   * modify:
     * `layouts\baseof.html`
+* Modify `assets\sass\main.scss` to let code part scrollbar more beautiful
