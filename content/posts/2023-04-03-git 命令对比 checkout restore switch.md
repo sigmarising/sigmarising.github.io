@@ -3,7 +3,7 @@ title: "Git 命令对比 Checkout Restore Switch"
 date: 2023-04-03T19:21:44+08:00
 header_img: "/img/bg-tech.jpg"  # can be deleted
 short: true
-toc: true
+toc: false
 tags: ["git"]
 categories: ["git"]
 series: ["tech"]  # should be ONLY ONE of the ["tech", "life", "review"]
