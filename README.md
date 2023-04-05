@@ -61,4 +61,4 @@ The blog's [posts part](./content/) follow [CC BY-SA 4.0](https://creativecommon
 * [Project Hugo](https://github.com/gohugoio/hugo)
 * [Hugo Theme Puppet](https://github.com/roninro/hugo-theme-puppet)
 * [Jekyll Theme Hux Blog](https://github.com/Huxpro/huxpro.github.io)
-* [Wallpaper site Pexels](https://www.pexels.com)
+* [Wallpaper site Pexels](https://www.pexels.com) (used detail see in [Wallpapers.md](./Wallpapers.md))
