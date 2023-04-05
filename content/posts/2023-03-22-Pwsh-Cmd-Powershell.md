@@ -5,7 +5,7 @@ subtitle: "通过其他程序工具间接调用 Powershell 模块时..."  # can 
 header_img: "/img/bg-tech.jpg"  # can be deleted
 short: true
 toc: true
-tags: ["Pwsh"]
+tags: ["Shell"]
 categories: ["命令行"]
 series: ["tech"]  # should be ONLY ONE of the ["tech", "life", "review"]
 slug: "20230322-pwsh-cmd-powershell"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
