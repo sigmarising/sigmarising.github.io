@@ -5,7 +5,7 @@ subtitle: "Mathematica 基础入门用法"  # can be deleted
 header_img: "/img/bg-tech.jpg"  # can be deleted
 short: true
 toc: true
-tags: ["Mathematica", "CSDN备份"]
+tags: ["数学建模", "CSDN备份"]
 categories: ["数学建模"]
 series: ["tech"]
 slug: "20180202-mathematica"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
