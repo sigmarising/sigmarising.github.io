@@ -5,8 +5,8 @@ subtitle: "Mathematica 常用Plot函数"  # can be deleted
 header_img: "/img/bg-tech.jpg"  # can be deleted
 short: true
 toc: true
-tags: ["数学建模", "CSDN备份"]
-categories: ["数学建模"]
+tags: ["数学", "CSDN备份"]
+categories: ["数学"]
 series: ["tech"]
 slug: "20180206-mathematica-plot"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
