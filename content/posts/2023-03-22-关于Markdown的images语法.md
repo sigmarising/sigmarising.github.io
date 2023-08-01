@@ -5,8 +5,8 @@ subtitle: "Markdown images 的 alt 和 title 是可以分别设置的"  # can be
 header_img: "/img/bg-tech.jpg"  # can be deleted
 short: true
 toc: false
-tags: ["Markdown"]
-categories: ["Markdown"]
+tags: ["开发"]
+categories: ["开发"]
 series: ["tech"]  # should be ONLY ONE of the ["tech", "life", "review"]
 slug: "20230322-markdown-images-syntax"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
