@@ -1,5 +1,5 @@
 ---
-title: "PotPlayer+LAV+MadVR+XySubFilter 配置指南（修订版）"
+title: "PotPlayer + LAV + MadVR + XySubFilter 配置指南（修订版）"
 date: 2023-08-24T15:49:51+08:00
 subtitle: "打造更好用的 PotPlayer"  # can be deleted
 header_img: "/img/bg-tech.jpg"  # can be deleted
