@@ -110,7 +110,10 @@ rss = true
 name = "我的CSDN"
 url = "https://blog.csdn.net/sigmarising?type=blog"
 [[params.friends]]
-name = "我的简书"
+name = "我的知乎文章"
+url = "https://www.zhihu.com/people/zdfssf-lsdffsd/posts"
+[[params.friends]]
+name = "我的简书 (deprecated)"
 url = "https://www.jianshu.com/u/200f6f2ca07d"
 
 # See https://giscus.app/
