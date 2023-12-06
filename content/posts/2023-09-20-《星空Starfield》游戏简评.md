@@ -22,7 +22,7 @@ slug: "20230920-review-game-starfield"  # final real url, recommend: start by da
 
 *我有些开始犹豫要不要把老游戏《上古卷轴 5》拿起来开这个老游戏的新坑了。*
 
-个人评分：7.9/10
+个人评分：7.0/10
 
 ---
 
