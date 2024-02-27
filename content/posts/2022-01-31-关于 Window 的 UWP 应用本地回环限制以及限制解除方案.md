@@ -7,7 +7,7 @@ toc: true
 tags: ["开发", "CSDN备份"]
 categories: ["开发"]
 series: ["tech"]
-slug: "20220131-tech-uwl-loopback"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
+slug: "20220131-tech-uwp-loopback"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
 ---
 
 ## 1. UWP 应用默认禁止本地回环
@@ -55,8 +55,14 @@ Powershell 命令：
 Get-ChildItem -Path Registry::"HKCU\Software\Classes\Local Settings\Software\Microsoft\Windows\CurrentVersion\AppContainer\Mappings\" -name | ForEach-Object {CheckNetIsolation.exe LoopbackExempt -a -p="$_"}
 ```
 
+New Powershell Core:
+```shell
+(Get-AppxPackage -AllUsers).PackageFamilyName | ForEach-Object {CheckNetIsolation.exe LoopbackExempt -a -n="$_"}
+```
+
 > 参考链接：
-> [一般方法 - Windows 用户：UWP 应用回环问题](https://qv2ray.net/lang/zh/getting-started/step4.html#%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95)
+> * [一般方法 - Windows 用户：UWP 应用回环问题](https://qv2ray.net/lang/zh/getting-started/step4.html#%E4%B8%80%E8%88%AC%E6%96%B9%E6%B3%95)
+> * [MS Learn - Loopback](https://learn.microsoft.com/en-us/windows/uwp/communication/interprocess-communication#loopback)
 
 ## 4. 其他便捷工具以及深层次分析
 
