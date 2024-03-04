@@ -8,7 +8,7 @@ My Chinese Personal Blog Monorepo(😂), named *OneBlog*.
 
 ### Build Environment
 
-Use [hugo extended version v0.111.3](https://github.com/gohugoio/hugo/releases/tag/v0.111.3) for site generation.
+Use [hugo extended version v0.123.7](https://github.com/gohugoio/hugo/releases/tag/v0.123.7) for site generation.
 
 ### Check Hugo Version
 
