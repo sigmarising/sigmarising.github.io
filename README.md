@@ -53,8 +53,7 @@ Additional change are made to theme puppet to fit this project's requirements. T
 
 ## LICENSE
 
-This project's code part follow [GPL v3 License](./LICENSE).\
-The blog's [posts part](./content/) follow [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en) copyright agreement.
+See detail in the [LICENSE](./LICENSE) file.
 
 ## Thanks
 
