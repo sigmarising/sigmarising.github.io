@@ -1,5 +1,5 @@
 <figure>
-  <a class="paragraph-image" href="{{ .Destination | safeURL }}" data-lightbox="gallery">
+  <a class="paragraph-image glightbox" href="{{ .Destination | safeURL }}">
     <img data-src="{{ .Destination | safeURL }}" alt="{{ .Text }}" {{ with .Title }} title="{{ . }}"{{ end }} class="lazyload">
   </a>
   {{ with .Title }}

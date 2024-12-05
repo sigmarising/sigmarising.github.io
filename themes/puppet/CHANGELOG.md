@@ -10,13 +10,12 @@ Base on Hugo Theme Puppet [commit 71e55a8](https://github.com/roninro/hugo-theme
   * `assets\sass\_sidebar.scss`
   * `layouts\partials\short-about.html`
 * To fix the iOS phone search issue, update the version of [Simple-Jekyll-Search](https://www.npmjs.com/package/simple-jekyll-search) to locally dev bundle version 1.10.0
-* Remove the `zoom.js` related code, and replace it with `lightbox2`:
+* Remove the `zoom.js` related code, and replace it with `glightbox 3.3.0`:
   * delete:
     * `assets\zoomjs\` 
   * add:
-    * `static\css\lightbox.min.css`
-    * `static\images\`
-    * `static\js\lightbox.min.js`
+    * `static\css\glightbox.min.css`
+    * `static\js\glightbox.min.js`
   * modify:
     * `layouts\baseof.html`
     * `layouts\footer.html`
