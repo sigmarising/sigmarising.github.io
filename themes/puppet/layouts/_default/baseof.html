@@ -30,6 +30,8 @@
   {{- $style := resources.Get "sass/main.scss" | resources.ToCSS $options -}}
   <link rel="stylesheet" href="{{ $style.RelPermalink }}">
 
+  <link rel="stylesheet" href={{ "css/glightbox.min.css" | relURL }}>
+  <script src={{ "js/glightbox.min.js" | relURL }}></script>
 
   {{ range .Site.Params.custom_css -}}
   {{ $custom_template := resources.Get . }}
