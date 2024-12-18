@@ -1,3 +1,3 @@
 (function () {
-  const lightbox = GLightbox({ preload: false, loop: false });
+  const lightbox = GLightbox({ preload: true, loop: false });
 })();
