@@ -4,7 +4,7 @@ title = "OneBlog"
 theme = "puppet"
 publishDir = "dist"
 
-copyright = "Copyright &copy; OneBlog 2024"
+copyright = "Copyright &copy; OneBlog 2025"
 paginate = 7
 languageCode = "zh-CN"
 defaultContentLanguage = "zh"
