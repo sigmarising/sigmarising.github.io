@@ -26,15 +26,26 @@ Potplayer 作为 Windows 上很受欢迎的一款播放器，公认的最佳配�
 
 第一步的设置即为配置显卡驱动控制面板的显示设置，针对于 Intel、Nvidia、AMD 的显卡配置方法各不相同，可以参考[此链接](https://vcb-s.com/archives/7228)或其他资料并结合自身机器的显卡和显示器进行配置，本文不再赘述。
 
-## Step 2. 安装 PotPlayer、K-Lite Mega Pack
+## Step 2. 安装 PotPlayer、LAV、MadVR、XySubFilter
 
 自行下载以下安装包：
 * [PotPlayer](https://potplayer.daum.net/?lang=zh_CN) 64bit 版本
-* [K-Lite Mega Pack](https://codecguide.com/download_k-lite_codec_pack_mega.htm)
+* [LAV Filters](https://github.com/Nevcairiel/LAVFilters/releases)
+* [madVR](https://forum.doom9.org/showthread.php?t=146228)
+* [XySubFilter](https://github.com/pinterf/xy-VSFilter/releases)
 
-> **为什么要使用 K-Lite ?**
->
-> K-Lite 打包了重多的解码器方案，它能够一站式安装 LAV、MadVR、XySubFilter，十分方便易用，省去了自行搜索以上解码器、视频渲染器安装包的繁琐
+说明：
+* PotPlayer 下载地址为官方网站
+* LAV Filters 下载地址为 GitHub 发布页
+* madVR 下载地址为 Doom9 论坛，原因参考此[Reddit 链接](https://www.reddit.com/r/software/comments/1ai1yxy/where_to_download_official_madvr_filesinstaller/?rdt=50717)
+* XySubFilter 下载地址为基于原版修改的 pfmod 版本的 GitHub 发布页
+
+### 为什么不再推荐使用 K-Lite ?
+
+在我先前的配置文章[PotPlayer + LAV + MadVR + XySubFilter 配置指南（修订版）](/posts/20230824-tech-pro-pot-player)中，都是使用 K-Lite 打包安装 LAV + MadVR + XySubFilter 的。但是由于 K-Lite 在不断的更新中，存在以下的几个严重缺点，所以**我不再推荐使用 K-Lite 打包安装解码器**：
+* 添加了在安装步骤中的捆绑软件选项
+* 额外安装了很多不需要的解码器和渲染器
+* 自 v18 开始移除了 XySubFilter 插件（参考此[链接](https://zh.wikipedia.org/zh-cn/K-Lite_Codec_Pack#:~:text=%E8%87%AA18.0.0%E8%B5%B7%EF%BC%8CXySubFilter%E8%A2%AB%E7%A7%BB%E9%99%A4%E3%80%82)）
 
 ### Step 2.1 安装 PotPlayer
 
@@ -47,34 +58,29 @@ Potplayer 作为 Windows 上很受欢迎的一款播放器，公认的最佳配�
 
 ![检测硬件编解码器](/img/posts/20230824-p2.png "检测硬件编解码器")
 
-### Step 2.2 安装 K-Lite Mega Pack
+### Step 2.2 安装 LAV、MadVR、XySubFilter
 
-由于我是覆盖安装进行演示，所以我在此处选择 Fresh install：
+首先需要下载好所有程序的压缩包，并手动解压、拷贝到目标安装目录，后续不再赘述。
 
-![全新安装](/img/posts/20230824-p3.png "全新安装")
+#### Step 2.2.1 安装 LAV Filters
 
-这里并不需要额外安装 MPC-HC 播放器，注意安装时只安装 64 位组件：
+**注：下载时选择 LAVFilters-x.x.x-x64.zip 版本的压缩包。**
 
-![安装选项](/img/posts/20230824-p4.png "安装选项")
+对目录中的三个 Install Bat 脚本，依次使用管理员权限运行，即可完成安装（安装完成后点击确认即可）：
 
-接下来的组件选择界面，基本保留默认即可，但我们**需要额外勾选 XySubFilter**：
+![LAV Filters 的三个安装脚本](/img/posts/20250115-p1.png "LAV Filters 的三个安装脚本")
 
-![安装 XySubFilter](/img/posts/20230824-p5.png "安装 XySubFilter")
+#### Step 2.2.2 安装 MadVR
 
-下一个界面，取消对 Windows Media Player 的注册，并设置了每三个月检测一次更新：
+对目录中的 Install Bat 脚本，使用管理员权限运行，即可完成安装（安装完成后按回车即可）：
 
-![取消对 Windows Media Player 的注册](/img/posts/20230824-p6.png "取消对 Windows Media Player 的注册")
-![每三个月检测一次更新](/img/posts/20230824-p7.png "每三个月检测一次更新")
+![MadVR 安装脚本](/img/posts/20250115-p2.png "MadVR 安装脚本")
 
-后续步骤基本上一路 Next 就可以了，K-Lite 会为你检测硬件并选择配置：
+#### Step 2.2.3 安装 XySubFilter
 
-![K-Lite 硬件检测](/img/posts/20230824-p8.png "K-Lite 硬件检测")
+进入 `x64` 文件夹，对目录中的 Install Bat 脚本，使用管理员权限运行，即可完成安装（安装完成后点击确认即可）：
 
-我们不需要任何 Windows Media Player 相关的设置：
-
-![不配置 WMP](/img/posts/20230824-p9.png "不配置 WMP")
-
-之后继续安装即可，***注意若有广告软件推广选项（间歇性，非每次必出）记得 Decline 它。***
+![XySubFilter 安装脚本](/img/posts/20250115-p3.png "XySubFilter 安装脚本")
 
 ## Step 3. 配置 PotPlayer 滤镜选项
 
@@ -104,7 +110,7 @@ Potplayer 作为 Windows 上很受欢迎的一款播放器，公认的最佳配�
 
 打开一个视频，按 `TAB` 查看信息可发现配置成功：
 
-![最终效果](/img/posts/20230824-p14.png "最终效果")
+![最终效果](/img/posts/20250115-p4.png "最终效果")
 
 ## Step 4. 其他 PotPlayer 设置
 
@@ -198,6 +204,7 @@ LAV Splitter 和 LAV Splitter Source 无需配置，保持默认即可。
 
 # 参考链接
 
+* [高品质视频播放器 Potplayer + madvr + LAV 设置不完全指北【2024-01-24更新】](https://bbs.pha.pub/threads/286/)
 * [基于 PotPlayer 和 madVR 的播放器教程](https://vcb-s.com/archives/7228)
 * [配置全设备通用的 PotPlayer 和 LAVFilters 满足基本 BDRIP 回放需求](https://blog.dsrkafuu.net/post/2020/potplayer-with-lav-fliters/)
 * [Potplayer 安装 LAV Filters 改善播放体验与质量](https://blog.nannan.cool/archives/256/)
