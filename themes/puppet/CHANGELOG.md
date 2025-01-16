@@ -27,3 +27,12 @@ Base on Hugo Theme Puppet [commit 71e55a8](https://github.com/roninro/hugo-theme
   * modify:
     * `layouts\baseof.html`
 * Modify `assets\sass\main.scss` to let code part scrollbar more beautiful
+
+Update to Hugo v0.133.1, fix the following errors:
+```
+ERROR deprecated: .Site.DisqusShortname was deprecated in Hugo v0.120.0 and will be removed in Hugo 0.134.0. Use .Site.Config.Services.Disqus.Shortname instead.
+ERROR deprecated: .Site.IsServer was deprecated in Hugo v0.120.0 and will be removed in Hugo 0.134.0. Use hugo.IsServer instead.
+```
+by modify the following files:
+* `layouts/partials/comments.html`
+* `layouts/partials/footer.html`
