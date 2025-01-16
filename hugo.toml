@@ -107,11 +107,14 @@ linkedin = "云-张-513461206"
 rss = true
 
 [[params.friends]]
-name = "我的CSDN"
-url = "https://blog.csdn.net/sigmarising?type=blog"
+name = "我的掘金文章"
+url = "https://juejin.cn/user/3270396585196667/posts"
 [[params.friends]]
 name = "我的知乎文章"
 url = "https://www.zhihu.com/people/zdfssf-lsdffsd/posts"
+[[params.friends]]
+name = "我的 CSDN (deprecated)"
+url = "https://blog.csdn.net/sigmarising?type=blog"
 [[params.friends]]
 name = "我的简书 (deprecated)"
 url = "https://www.jianshu.com/u/200f6f2ca07d"
