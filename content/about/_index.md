@@ -6,7 +6,7 @@ header_img: /img/bg-about.jpg
 short: false
 ---
 
-***This is Yun here! 欢迎来到我的博客 OneBlog！***
+***This is YUN here! 欢迎来到我的博客 OneBlog！***
 
 本人 CS 领域毕业（计算机科学与技术，计算机技术），本科与硕士均就读于北京邮电大学。
 
@@ -16,7 +16,7 @@ short: false
 
 ---
 
-***This is Yun here! Welcome to my OneBlog!***
+***This is YUN here! Welcome to my OneBlog!***
 
 I graduated from the field of CS (Computer Science and Technology, Computer Technology), and both my undergraduate and master's degree studies at Beijing University of Posts and Telecommunications.
 
