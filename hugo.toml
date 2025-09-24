@@ -92,14 +92,14 @@ custom_css = ["css/scrollbar.css"]
 enable = true
 # Avatar will be overwritten by gravatar image if `gravatarEmail` is filled
 gravatarEmail = ""
-avatar = "/img/pic-me.jpeg"
+avatar = "/img/pic-me.jpg"
 
 [[params.sidebarBios]]
-bio = "Yun Zhang @ Microsoft"
+bio = "YUN Zhang"
 [[params.sidebarBios]]
-bio = "时刻不忘 Work Life Balance"
+bio = "I'm a Horizon Dreamer"
 [[params.sidebarBios]]
-bio = "探寻生活中的乐趣与美好"
+bio = "我是地平线的追梦者"
 
 [params.social]
 github = "sigmarising"
