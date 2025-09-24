@@ -20,6 +20,6 @@ short: false
 
 I graduated from the field of CS (Computer Science and Technology, Computer Technology), and both my undergraduate and master's degree studies at Beijing University of Posts and Telecommunications.
 
-My hobbies and interests are very broad (regular three-minute hotness): front-end technology, back-end technology, programming languages, software, PC hardware, mobile devices, swimming, outdoors, hiking, mountaineering, reading, movies, movies, animation, comics, games, PlayStation, Xbox, Switch... There are too many things I want to do (but too little time).
+My hobbies and interests are very broad (regular three-minute hotness): front-end technology, back-end technology, programming languages, software, PC hardware, mobile devices, swimming, outdoors, hiking, mountaineering, reading, movies, animation, comics, games, PlayStation, Xbox, Switch... There are too many things I want to do (but too little time).
 
 In this OneBlog, I will mainly record my Tech-related notes (or memos), insights in life, and reviews and impressions of various audio-visual games. I hope I can keep recording them.
