@@ -74,7 +74,7 @@ url = "/about/"
 weight = 50
 
 [params]
-author = "Yun"
+author = "YUN"
 description = "「体验平凡 创造所感」"
 keywords = "blog,developer,life,personal"
 img_home = "/img/bg-home.jpg"
