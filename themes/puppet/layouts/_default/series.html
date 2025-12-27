@@ -4,8 +4,24 @@
   <div class="row">
     <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1
       postlist-container">
-      {{ range .Pages }}
-      {{ .Render "summary" }}
+      {{ $paginator := .Paginate .Pages }}
+      {{ range $paginator.Pages }}
+        {{ .Render "summary" }}
+      {{ end }}
+
+      {{ if or ($paginator.HasPrev) ($paginator.HasNext) }}
+      <ul class="pager">
+        {{ if $paginator.HasPrev }}
+        <li class="previous">
+            <a href="{{ .Paginator.Prev.URL }}">&larr; Newer Posts</a>
+        </li>
+        {{ end }}
+        {{ if $paginator.HasNext }}
+        <li class="next">
+            <a href="{{ .Paginator.Next.URL }}">Older Posts &rarr;</a>
+        </li>
+        {{ end }}
+      </ul>
       {{ end }}
     </div>
   </div>

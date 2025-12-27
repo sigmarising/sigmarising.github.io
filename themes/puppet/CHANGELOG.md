@@ -1,5 +1,7 @@
 # CHANGELOG
 
+## Template Changes
+
 Base on Hugo Theme Puppet [commit 71e55a8](https://github.com/roninro/hugo-theme-puppet/tree/71e55a893702ea6e1a15a71a3d0e2248673794f1), the changes made are listed below:
 * delete folder `exampleSite\` and `images\`
 * delete file `netlify.toml`
@@ -27,6 +29,11 @@ Base on Hugo Theme Puppet [commit 71e55a8](https://github.com/roninro/hugo-theme
   * modify:
     * `layouts\baseof.html`
 * Modify `assets\sass\main.scss` to let code part scrollbar more beautiful
+* Add paginator to series pages:
+  * modify `layouts\index.html`, add a blank line
+  * modify `layouts\_default\series.html` to fit the paginator
+
+## Fix Change to Fit Hugo Update
 
 Update to Hugo v0.133.1, fix the following errors:
 ```
