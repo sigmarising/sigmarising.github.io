@@ -19,7 +19,7 @@ hugo version
 ### Create New Post
 
 ```shell
-hugo new posts/20xx-0x-xx-PostTitle.md
+hugo new "posts/yyyy-mm-dd-PostTitle.md"
 ```
 
 ### Live Server
