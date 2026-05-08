@@ -1,5 +1,6 @@
 ---
 title: "Claude Desktop / Cowork 配置 DeepSeekV4 API 备忘记录"
+subtitle: "UPDATE: 最新版本 Cowork 已失效..."
 date: 2026-04-29T23:18:54+08:00
 header_img: "/img/bg-tech.jpg"  # can be deleted
 short: true
@@ -8,6 +9,17 @@ tags: ["AI", "开发"]
 categories: ["AI"]
 series: ["tech"]
 slug: "20260429-tech-claude-desktop-or-cowork-configure-deepseek-v4-notes"  # final real url, recommend: start by date, follow lower case words with hyphen splitter. E.g., `20230316-text-title`
+---
+
+## **Update 2026.5.8:**
+
+Claude Desktop 于近日发布了新版本，在配置 Gateway 接入 3P 模型时，**客户端会对模型名称做白名单筛查，这项修改使得所有非 Anthropic/Claude 的第三方模型接入直接失效**（除非配置反向代理来伪装模型名，才可以 Bypass 这个限制）。
+
+这项更新，**其实变相官宣了 A ➗ 在官方意愿上禁用第三方模型接入自家产品**。不过目前 Claude Code CLI / VSC Ext 仍然可以接入第三方模型，**暂时**未受影响。
+
+Coding Agent 有很多，但公认好用的也只有 CodeX 和 Claude Code……\
+先是 CodeX 禁用了 wire_api 配置，然后是 Claude Cowork 对模型名做白名单筛查，**下一个会不会轮到 Claude Code 禁止第三方模型接入，可能真的不好说了**……
+
 ---
 
 ## Step 1. 下载 Claude Desktop
